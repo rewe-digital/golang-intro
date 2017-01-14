@@ -1,20 +1,9 @@
 * Notes
 
-- Why is Go interesting for REWE digital?
-    + https://github.com/golang/go/wiki/Projects
-        * Consul
-        * Docker
-        * Kubernetes
-        * Prometheus
-        * ...
-- Go's language origins
-    + see https://en.wikipedia.org/wiki/Go_(programming_language)
-    + announced in November 2009
-    + Go 1.0 was released in March 2012
-    + Current Release: 1.7.4
-- Hello World
+- http://halyph.com/blog/2015/05/18/golang-presentation-tool.html
+- https://www.youtube.com/watch?v=83JBmS8WpHM
+
 - Language features
-    + "It is a compiled, statically typed language in the tradition of Algol and C, with garbage collection, limited structural typing, memory safety features and CSP-style concurrent programming features added." (https://en.wikipedia.org/wiki/Go_(programming_language))
     + fast compiler
         + good cross compilation
         + A toolchain that, by default, produces statically linked native binaries without external dependencies.
@@ -35,5 +24,4 @@
 - Critique
     + Why Go Is Not Good: http://yager.io/programming/go.html
     + Modern Garbage Collection: https://blog.plan99.net/modern-garbage-collection-911ef4f8bd8e#.mfs4w4evd
-- Learn Go
-    + A Tour of Go (https://tour.golang.org)
+

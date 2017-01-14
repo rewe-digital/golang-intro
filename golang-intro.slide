@@ -11,4 +11,56 @@ https://rewe-digital.com/
 
 * The Go Programming Language
 
-Go is an open source programming language that makes it easy to build simple, reliable, and efficient software.
+"Go is an open source programming language that makes it easy to build simple, reliable, and efficient software."
+
+.link http://golang.org
+
+.image assets/gopher.png
+
+.link https://blog.golang.org/gopher The Go Gopher
+
+* Why Go at REWE digital?
+
+Because many infrastructure tools we use are written in Go
+
+- Consul
+- Docker
+- Kubernetes
+- Prometheus
+- ...
+
+.link https://github.com/golang/go/wiki/Projects
+
+* Go at REWE digital
+
+- Slash
+- Tokka
+- Guble (https://github.com/smancke/guble)
+- Samsa
+
+* Language Origin
+
+- announced in November 2009 by Google
+- Go 1.0 was released in March 2012
+- Current Release: 1.7.4
+
+.link https://en.wikipedia.org/wiki/Go_(programming_language) Wikipedia
+
+* Language Fact Sheet
+
+- C style
+- compiled
+- statically typed
+- limited structural typing
+- memory safety, garbage collection
+- CSP-style concurrent programming (communicating sequential processes)
+
+* Hello, World!
+
+.play helloworld/main.go
+
+* Learn Go
+
+.link https://tour.golang.org
+
+.link https://play.golang.org/
