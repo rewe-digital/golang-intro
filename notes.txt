@@ -4,9 +4,6 @@
 - https://www.youtube.com/watch?v=83JBmS8WpHM
 
 - Language features
-    + fast compiler
-        + good cross compilation
-        + A toolchain that, by default, produces statically linked native binaries without external dependencies.
     + error handling
     + type system
         * attached method set
@@ -24,4 +21,3 @@
 - Critique
     + Why Go Is Not Good: http://yager.io/programming/go.html
     + Modern Garbage Collection: https://blog.plan99.net/modern-garbage-collection-911ef4f8bd8e#.mfs4w4evd
-
