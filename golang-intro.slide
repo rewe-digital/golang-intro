@@ -64,6 +64,40 @@ Because many infrastructure tools we use are written in Go
 
 .play helloworld/main.go
 
+* Basic Types
+
+`bool`
+
+`string`
+
+`int`, `int8`, `int16`, `int32`, `int64`
+
+`uint`, `uint8`, `uint16`, `uint32`, `uint64`, `uintptr`
+
+`byte` (alias for `uint8`)
+
+`rune` (alias for `int32`, represents a Unicode code point)
+
+`float32` `float64`
+
+`complex64` `complex128`
+
+* Pointers
+
+.play pointers/main.go
+
+* Functions
+
+.play functions/main.go
+
+* Structs
+
+.play structs/main.go
+
+* Methods
+
+.play methods/main.go /START OMIT/,/END OMIT/
+
 * Learn Go
 
 .link https://tour.golang.org
