@@ -1,0 +1,10 @@
+// from package ioutil
+func ReadFile(filename string) ([]byte, error) {
+    // ...
+}
+
+// built in
+type error interface {
+	Error() string
+}
+

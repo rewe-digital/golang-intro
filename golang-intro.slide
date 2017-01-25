@@ -49,7 +49,7 @@ Because many infrastructure tools we use are written in Go
 
 * Language Fact Sheet
 
-- Deliberatley simple C style language design
+- Deliberately simple C style language design
 - statically typed, compiled (fast, cross, small binary)
 - a toolchain that, by default, produces statically linked native binaries without external dependencies
 - limited structural typing
@@ -84,19 +84,90 @@ Because many infrastructure tools we use are written in Go
 
 * Pointers
 
-.play pointers/main.go
+.play -edit pointers/main.go
 
 * Functions
 
-.play functions/main.go
+.play -edit functions/main.go
 
 * Structs
 
-.play structs/main.go
+.play -edit structs/main.go
 
 * Methods
 
-.play methods/main.go /START OMIT/,/END OMIT/
+.play -edit methods/main.go /START OMIT/,/END OMIT/
+
+* Interfaces (1)
+
+.play -edit interfaces1/main.go /START OMIT/,/END OMIT/
+
+* Interfaces (2)
+
+.code interfaces2/stringer.txt
+
+.play -edit interfaces2/main.go /START OMIT/,/END OMIT/
+
+* Errors
+
+.code errors/ioutil.txt
+
+.play -edit errors/main.go /START OMIT/,/END OMIT/
+
+* Go Routines
+
+.play -edit goroutines/main.go /START OMIT/,/END OMIT/
+
+* Channels (1)
+
+.play -edit channels/main.go /START OMIT/,/END OMIT/
+
+* Channels (2)
+
+.code multiplexing/main.go /START say OMIT/,/END say OMIT/
+
+* Channels (3)
+
+.code multiplexing/main.go /START fanIn OMIT/,/END fanIn OMIT/
+
+* Channels (4)
+
+.play -edit multiplexing/main.go /START main OMIT/,/END main OMIT/
+
+* Packages
+
+- Go code lives in packages.
+- Packages contain constant, type, function and variable declarations.
+- Packages can be very small (package errors has just one declaration) or very large (package net/http has >100 declarations). Most are somewhere in between.
+- Case determines visibility: Foo is exported, foo is not.
+
+* Go Standard Library
+
+TBD
+
+* GOPATH and Imports
+
+The GOPATH environment variable lists places to look for Go code.
+
+If DIR is a directory listed in the GOPATH, a package with source in DIR/src/foo/bar can be imported as "foo/bar".
+
+The command "go get" downloads, compiles and installs the packages named by the import paths, along with their dependencies, e.g.
+
+    go get github.com/user/project
+
+* Go Package Management
+
+.image assets/picard-facepalm.gif
+
+* Go Tools
+
+Usage:
+
+    go command [arguments]
+
+Commands:
+
+.code gocommands/commands.txt
 
 * Learn Go
 
