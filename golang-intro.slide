@@ -108,7 +108,7 @@ Because many infrastructure tools we use are written in Go
 
 .play -edit interfaces2/main.go /START OMIT/,/END OMIT/
 
-* Errors
+* Error Handling
 
 .code errors/ioutil.txt
 
@@ -143,7 +143,16 @@ Because many infrastructure tools we use are written in Go
 
 * Go Standard Library
 
-TBD
+.link https://golang.org/pkg/
+
+e.g.
+- encoding/decoding of various formats
+- data-driven templates for generating text and HTML output
+- HTTP client and server implementations
+
+* Sample Application
+
+.link https://github.com/stefanscheidt/weatherservice-go Simple Weather Service
 
 * GOPATH and Imports
 
