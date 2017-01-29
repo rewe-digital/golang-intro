@@ -19,9 +19,34 @@ https://rewe-digital.com/
 
 .link https://blog.golang.org/gopher The Go Gopher
 
+* Language Origin
+
+- created at Google in 2007 by Robert Griesemer, Rob Pike, and Ken Thompson
+- officially announced in November 2009
+- Go 1.0 released in March 2012
+- with specification of the language and libraries
+- current release: 1.7.4
+
+.link https://en.wikipedia.org/wiki/Go_(programming_language) Wikipedia
+.link https://golang.org/ref/spec Language specification
+.link https://golang.org/doc/faq#Origins golang FAQ
+
+* Why a new language?
+
+Motivated by needs at Google:
+
+-  Efficiency
+-  Safety
+-  Concurrency
+-  Scalability
+-  Fast development cycle
+-  No surprises
+
+.link https://talks.golang.org/2012/simple.slide#4 "Go: a simple programming environment", Andrew Gerrand
+
 * Why Go at REWE digital?
 
-Because many infrastructure tools we use are written in Go
+Many infrastructure tools we use are written in Go
 
 - Consul
 - Docker
@@ -31,21 +56,13 @@ Because many infrastructure tools we use are written in Go
 
 .link https://github.com/golang/go/wiki/Projects
 
+Fits well for microservice development
+
 * Go at REWE digital
 
 - Slash
 - Tokka
 - Guble (https://github.com/smancke/guble)
-- Samsa
-
-* Language Origin
-
-- announced in November 2009 by Google
-- Go 1.0 was released in March 2012
-- Current Release: 1.7.4
-
-.link https://en.wikipedia.org/wiki/Go_(programming_language) Wikipedia
-.link https://golang.org/doc/faq#Origins golang FAQ
 
 * Language Fact Sheet
 
@@ -163,6 +180,8 @@ If DIR is a directory listed in the GOPATH, a package with source in DIR/src/foo
 The command "go get" downloads, compiles and installs the packages named by the import paths, along with their dependencies, e.g.
 
     go get github.com/user/project
+
+.link https://godoc.org/
 
 * Go Package Management
 
