@@ -58,12 +58,6 @@ Many infrastructure tools we use are written in Go
 
 Fits well for microservice development
 
-* Go at REWE digital
-
-- Slash
-- Tokka
-- Guble (https://github.com/smancke/guble)
-
 * Language Fact Sheet
 
 - Deliberately simple C style language design
@@ -205,4 +199,4 @@ Commands:
 
 * Slides
 
-.link https://stash.rewe-digital.com/users/stefan.scheidt_rewe-digital.com/repos/golang-intro/browse
+.link https://github.com/rewe-digital/golang-intro
